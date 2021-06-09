@@ -9,6 +9,7 @@
   aliases: 
 CMD*/
 
+var coin = Bot.getProperty("coin")
 let profit = Libs.ResourcesLib.userRes("profit");
 let reinvest = Libs.ResourcesLib.userRes("reinvest");
 let deposit = Libs.ResourcesLib.userRes("deposit");
@@ -31,4 +32,4 @@ let inf =
 
 
 Bot.sendMessage( "👤 _Account Summary_:  "+inf+
-"\n\n➖ *Withdrawable Balance:"+ "\n"+ res.value().toFixed(8) + " TRX" + "\n\n💳 Active Investments: "+ "\n"+ deposit.value().toFixed(8) + " TRX" + "\n\n💰Total Profit: "+ "\n"+ profit.value().toFixed(8) + " TRX" + "\n\n🎁 Total Affiliate Bonus:"+"\n"+ refcom.value().toFixed(8) + " TRX" + "\n\n💵 Total Withdrawn:"+ "\n"+ withdraw.value().toFixed(8) + " TRX" + "*\n" )
+"\n\n➖ *Withdrawable Balance:"+ "\n"+ res.value().toFixed(8) + " "+coin+"" + "\n\n💳 Active Investments: "+ "\n"+ deposit.value().toFixed(8) + " "+coin+"" + "\n\n💰Total Profit: "+ "\n"+ profit.value().toFixed(8) + " "+coin+"" + "\n\n🎁 Total Affiliate Bonus:"+"\n"+ refcom.value().toFixed(8) + " "+coin+"" + "\n\n💵 Total Withdrawn:"+ "\n"+ withdraw.value().toFixed(8) + " "+coin+"" + "*\n" )

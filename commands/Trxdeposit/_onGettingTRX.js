@@ -9,7 +9,6 @@
   aliases: 
 CMD*/
 
-
 if (!options) {
   // for security we need to check
   // that this command runned only by lib

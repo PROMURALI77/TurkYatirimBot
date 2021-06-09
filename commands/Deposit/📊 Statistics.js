@@ -18,4 +18,3 @@ var tota = Libs.ResourcesLib.anotherChatRes("tota", "global")
 let re = Libs.ResourcesLib.anotherChatRes("re", "global")
 var depo = Libs.ResourcesLib.anotherChatRes("depo", "global")
 Bot.sendMessage("*📊 Bot Live Statistics*" + "\n\n👤* Total Investors:* `" + tota.value().toFixed(0) + "`\n\n*➕ Total Investments:* `\n" + depo.value().toFixed(4) + "` *TRX*\n\n*💳 Total Withdrawn:* `\n" + userPayment.value().toFixed(4) + "` *TRX*")
-

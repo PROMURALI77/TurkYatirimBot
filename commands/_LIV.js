@@ -7,7 +7,7 @@
 
   <<ANSWER
 *🕰 Check All Live Transactions
-🤑 Live payment channel :- @TricksXTech*
+🤑 Live payment channel :- @TrxYatirimbotu*
   ANSWER
   keyboard: 
   aliases: 📪 live

@@ -9,7 +9,6 @@
   aliases: 
 CMD*/
 
-
 var referrer = Libs.ReferralLib.currentUser.attractedByUser();
 var lvl1 = Libs.ResourcesLib.userRes("lvl1")
 lvl1.set(referrer.telegramid)

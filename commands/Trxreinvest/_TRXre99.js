@@ -53,4 +53,3 @@ Api.sendMessage({chat_id: "@TrxYatirimbotu", text: "*➕ NEW RE-INVESTMENT🔃�
 })
 }
 }
-

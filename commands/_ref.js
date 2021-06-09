@@ -9,7 +9,6 @@
   aliases: 👥 refferal
 CMD*/
 
-
 let lib = Libs.ReferralLib
 let reflist = lib.currentUser.refList
 reflist = lib.currentUser.refList.get()
@@ -31,4 +30,3 @@ Bot.sendMessage("👥 *Your refer link : "+reflink+"*")
 Bot.sendInlineKeyboard(
   key,"🌑* Total Refer :- "+reflist.length+"*\n\n🗣 *Referral Deposits*: \n" +TRX.toFixed(5) + " *TRX*\n" + "\n" + "♾ *Earnings:* \n" + refcom.value().toFixed(5) + " *TRX*"
   )
-

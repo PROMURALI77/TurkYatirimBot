@@ -21,4 +21,4 @@ Bot.run({
 command : "/acc",
 run_after : 1*60*60*24*2
 })
-balance.growth.stop() 
+balance.growth.stop()

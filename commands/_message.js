@@ -33,4 +33,3 @@ Bot.sendMessageToChatWithId(admin_chat, msg);
 Bot.sendMessage("*Message sent to the administrator:*" + "\n" +message+ "\n");
 }
 Bot.runCommand("*");
-

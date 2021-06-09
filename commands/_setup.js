@@ -9,10 +9,10 @@
   aliases: 
 CMD*/
 
-Libs.CoinPayments.setPrivateKey("67a97D78A91Bfbb5cd2D01ce3c2997A22eDB52D279cbE839124373161fd7F94b");
+Libs.CoinPayments.setPrivateKey("A679c19f3882616AD7F29B2271fe4eebfAbC5579692E931a06355Ba0533506cE");
 //get from coinpayment website
-Libs.CoinPayments.setPublicKey('e2d7acc954d683a239a74ef650e3fe60163148c19d75ea3e73ee3fe62cc81274');
+Libs.CoinPayments.setPublicKey('9655c28aff352e8124e64e86178e9b26ae43f4e22509f42d0eb0485abd98dd3c');
 //get from coinpayment website
-Libs.CoinPayments.setBBApiKey('sP7XKP1nDvXKC3vV6FVwTyLNP6iMzXd-r7xdsktS');
+Libs.CoinPayments.setBBApiKey('kPDcnvTqTIn30HrfMyGjqfCAlLJrv8Qty_yJCpYU');
 //get from bots business three dots profile option
 Bot.sendMessage("🔥Done Your Account Has Been Setupped")

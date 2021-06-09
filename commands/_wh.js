@@ -4,7 +4,7 @@
   need_reply: true
   auto_retry_time: 
   folder: 
-  answer: Enter message 
+  answer: Enter message
   keyboard: 
   aliases: 
 CMD*/

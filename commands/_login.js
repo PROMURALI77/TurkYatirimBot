@@ -16,4 +16,3 @@ if(message=="hille"){
   msg = "You admin now. Please wait messages from users";
 }
 Bot.sendMessage(msg);
-

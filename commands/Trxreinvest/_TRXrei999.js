@@ -9,7 +9,6 @@
   aliases: 
 CMD*/
 
-
 if(request.data){
 var message_id = request.message.message_id
 var chat_id = request.message.chat.id
@@ -27,4 +26,3 @@ Bot.sendMessage("*❌ You can not reinvest right now:* " + "You need at least 1 
 Bot.sendKeyboard("🔙 Back","📤 _How many TRX you want to Re-invest🔃?_\n\n*Minimum:* `1 TRX`"+"\n"+"*Maximum:* `"+balance.value().toFixed(8)+"`*\n"+"*\n_Maximum amount corresponds to your balance_"+"\n\n"+"*➡️ Send now the amount of you want to Re-invest🔃*")
 Bot.runCommand("/TRXre99")
 }
-

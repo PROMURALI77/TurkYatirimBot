@@ -86,4 +86,3 @@ Bot.sendMessageToChatWithId(1194007250, "["+user.telegramid+"](tg://user?id=" +
     }
   }
 }
-

@@ -6,6 +6,6 @@
   folder: 
   answer: _🤗 Welcome_
   keyboard: 💵 Balance,📥 Deposit,\n🥏 Bonus,🔃 Re-invest,🗃️ Wallet,\n📞 Support,💳 History,📊 Statistics,\n👥 Refferal,📪 Live,📤 Withdraw
-  aliases: 
+  aliases: 🔙 back
 CMD*/
 

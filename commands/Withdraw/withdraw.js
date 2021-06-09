@@ -9,6 +9,5 @@
   aliases: 📤 withdraw
 CMD*/
 
-
 var key = [[{title:"✅ Confirm",command:"/TRXwithdraw99"}]]
 Bot.sendInlineKeyboard(key,"*Please Confirm To Withdraw* ")

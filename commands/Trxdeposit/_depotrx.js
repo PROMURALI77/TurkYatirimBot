@@ -9,8 +9,6 @@
   aliases: 
 CMD*/
 
-
-
 if(request.data){
 var message_id = request.message.message_id
 var chat_id = request.message.chat.id

@@ -58,4 +58,3 @@ if (error == "ok") {
       wallet
   )
 }
-

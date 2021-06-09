@@ -5,10 +5,7 @@
   auto_retry_time: 
   folder: TRX Withdraw
   answer: 
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
 CMD*/
 
